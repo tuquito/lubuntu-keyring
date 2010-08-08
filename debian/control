@@ -1,0 +1,15 @@
+Source: lubuntu-keyring
+Section: misc
+Priority: optional
+Maintainer: Mario Colque <mario@tuquito.org.ar>
+Standards-Version: 3.8.3
+
+Package: lubuntu-keyring
+Priority: important
+Architecture: all
+Depends: gnupg (>= 1.0.6-4)
+Description: GnuPG key of the Lubuntu repository
+ The Lubuntu repository digitally signs its Release files. This package
+ contains the repository key used for that.
+ * Tuquito Team! - 2010
+
